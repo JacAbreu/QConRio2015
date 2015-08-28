@@ -11,7 +11,7 @@ expr: op=('+'|'-') expr                 #Unary
     |  '(' expr ')'                     #Parens
     ;
 
-ID: [a-z] [a-zA-Z 0-9]*;
+ID: [a-z] [a-zA-Z0-9]*;
 NUMBER: [0-9]+;
 WS: [ \t\n]+ -> skip;
 
